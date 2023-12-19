@@ -40,10 +40,9 @@ void bubble_sort(int *array, size_t size)
 			{
 				swap(&array[i], &array[i + 1]);
 
-				printf("Swap: ");
 				print_array(array, size);
 
-				swapped = true;
+				swapped = false;
 			}
 		}
 		len--;
